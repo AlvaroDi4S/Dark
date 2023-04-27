@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+
+}
+
+body.dark{
+
+    background-color: rgb(21, 21, 21);
+}
+.range{
+    background-color: rgb(24, 24, 24);
+    border-radius: 50px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+
+    padding: 5px;
+    position: relative;
+    height: 30px;
+    width: 50px;
+
+
+    transform: scale(1.5);
+
+
+
+}
+
